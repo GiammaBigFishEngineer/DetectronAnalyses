@@ -1,0 +1,1229 @@
+--- Analisi dei pesi ---
+Nome: backbone.fpn_lateral2.weight
+Forma: torch.Size([256, 256, 1, 1])
+Peso minimo: -0.084800, Peso massimo: 0.094824
+----------------------------------------
+Nome: backbone.fpn_lateral2.bias
+Forma: torch.Size([256])
+Peso minimo: -0.010649, Peso massimo: 0.010733
+----------------------------------------
+Nome: backbone.fpn_output2.weight
+Forma: torch.Size([256, 256, 3, 3])
+Peso minimo: -0.054579, Peso massimo: 0.051348
+----------------------------------------
+Nome: backbone.fpn_output2.bias
+Forma: torch.Size([256])
+Peso minimo: -0.161018, Peso massimo: 0.149112
+----------------------------------------
+Nome: backbone.fpn_lateral3.weight
+Forma: torch.Size([256, 512, 1, 1])
+Peso minimo: -0.087860, Peso massimo: 0.087153
+----------------------------------------
+Nome: backbone.fpn_lateral3.bias
+Forma: torch.Size([256])
+Peso minimo: -0.027635, Peso massimo: 0.027464
+----------------------------------------
+Nome: backbone.fpn_output3.weight
+Forma: torch.Size([256, 256, 3, 3])
+Peso minimo: -0.035678, Peso massimo: 0.035274
+----------------------------------------
+Nome: backbone.fpn_output3.bias
+Forma: torch.Size([256])
+Peso minimo: -0.057583, Peso massimo: 0.053714
+----------------------------------------
+Nome: backbone.fpn_lateral4.weight
+Forma: torch.Size([256, 1024, 1, 1])
+Peso minimo: -0.088881, Peso massimo: 0.105560
+----------------------------------------
+Nome: backbone.fpn_lateral4.bias
+Forma: torch.Size([256])
+Peso minimo: -0.050565, Peso massimo: 0.042715
+----------------------------------------
+Nome: backbone.fpn_output4.weight
+Forma: torch.Size([256, 256, 3, 3])
+Peso minimo: -0.041726, Peso massimo: 0.042985
+----------------------------------------
+Nome: backbone.fpn_output4.bias
+Forma: torch.Size([256])
+Peso minimo: -0.052503, Peso massimo: 0.051214
+----------------------------------------
+Nome: backbone.fpn_lateral5.weight
+Forma: torch.Size([256, 2048, 1, 1])
+Peso minimo: -0.165638, Peso massimo: 0.145231
+----------------------------------------
+Nome: backbone.fpn_lateral5.bias
+Forma: torch.Size([256])
+Peso minimo: -0.120635, Peso massimo: 0.111107
+----------------------------------------
+Nome: backbone.fpn_output5.weight
+Forma: torch.Size([256, 256, 3, 3])
+Peso minimo: -0.038597, Peso massimo: 0.044865
+----------------------------------------
+Nome: backbone.fpn_output5.bias
+Forma: torch.Size([256])
+Peso minimo: -0.047671, Peso massimo: 0.041142
+----------------------------------------
+Nome: backbone.bottom_up.stem.conv1.weight
+Forma: torch.Size([64, 3, 7, 7])
+Peso minimo: -0.671024, Peso massimo: 0.704324
+----------------------------------------
+Nome: backbone.bottom_up.stem.conv1.norm.weight
+Forma: torch.Size([64])
+Peso minimo: 0.512643, Peso massimo: 2.668587
+----------------------------------------
+Nome: backbone.bottom_up.stem.conv1.norm.bias
+Forma: torch.Size([64])
+Peso minimo: -2.653984, Peso massimo: 6.353635
+----------------------------------------
+Nome: backbone.bottom_up.stem.conv1.norm.running_mean
+Forma: torch.Size([64])
+Peso minimo: -3.537402, Peso massimo: 3.334259
+----------------------------------------
+Nome: backbone.bottom_up.stem.conv1.norm.running_var
+Forma: torch.Size([64])
+Peso minimo: 184.107849, Peso massimo: 83614.734375
+----------------------------------------
+Nome: backbone.bottom_up.res2.0.shortcut.weight
+Forma: torch.Size([256, 64, 1, 1])
+Peso minimo: -0.771980, Peso massimo: 0.900367
+----------------------------------------
+Nome: backbone.bottom_up.res2.0.shortcut.norm.weight
+Forma: torch.Size([256])
+Peso minimo: 0.004353, Peso massimo: 3.064375
+----------------------------------------
+Nome: backbone.bottom_up.res2.0.shortcut.norm.bias
+Forma: torch.Size([256])
+Peso minimo: -1.125504, Peso massimo: 1.521819
+----------------------------------------
+Nome: backbone.bottom_up.res2.0.shortcut.norm.running_mean
+Forma: torch.Size([256])
+Peso minimo: -6.648304, Peso massimo: 9.714517
+----------------------------------------
+Nome: backbone.bottom_up.res2.0.shortcut.norm.running_var
+Forma: torch.Size([256])
+Peso minimo: 0.000001, Peso massimo: 7.327408
+----------------------------------------
+Nome: backbone.bottom_up.res2.0.conv1.weight
+Forma: torch.Size([64, 64, 1, 1])
+Peso minimo: -0.717496, Peso massimo: 0.392186
+----------------------------------------
+Nome: backbone.bottom_up.res2.0.conv1.norm.weight
+Forma: torch.Size([64])
+Peso minimo: 0.509218, Peso massimo: 2.066087
+----------------------------------------
+Nome: backbone.bottom_up.res2.0.conv1.norm.bias
+Forma: torch.Size([64])
+Peso minimo: -2.410869, Peso massimo: 3.607542
+----------------------------------------
+Nome: backbone.bottom_up.res2.0.conv1.norm.running_mean
+Forma: torch.Size([64])
+Peso minimo: -4.624998, Peso massimo: 7.615551
+----------------------------------------
+Nome: backbone.bottom_up.res2.0.conv1.norm.running_var
+Forma: torch.Size([64])
+Peso minimo: 0.052204, Peso massimo: 8.771975
+----------------------------------------
+Nome: backbone.bottom_up.res2.0.conv2.weight
+Forma: torch.Size([64, 64, 3, 3])
+Peso minimo: -0.390040, Peso massimo: 0.363759
+----------------------------------------
+Nome: backbone.bottom_up.res2.0.conv2.norm.weight
+Forma: torch.Size([64])
+Peso minimo: 0.420426, Peso massimo: 2.529534
+----------------------------------------
+Nome: backbone.bottom_up.res2.0.conv2.norm.bias
+Forma: torch.Size([64])
+Peso minimo: -2.285513, Peso massimo: 5.912569
+----------------------------------------
+Nome: backbone.bottom_up.res2.0.conv2.norm.running_mean
+Forma: torch.Size([64])
+Peso minimo: -4.011371, Peso massimo: 2.998420
+----------------------------------------
+Nome: backbone.bottom_up.res2.0.conv2.norm.running_var
+Forma: torch.Size([64])
+Peso minimo: 0.122356, Peso massimo: 21.474213
+----------------------------------------
+Nome: backbone.bottom_up.res2.0.conv3.weight
+Forma: torch.Size([256, 64, 1, 1])
+Peso minimo: -0.397442, Peso massimo: 0.347594
+----------------------------------------
+Nome: backbone.bottom_up.res2.0.conv3.norm.weight
+Forma: torch.Size([256])
+Peso minimo: 0.011003, Peso massimo: 2.819955
+----------------------------------------
+Nome: backbone.bottom_up.res2.0.conv3.norm.bias
+Forma: torch.Size([256])
+Peso minimo: -1.125504, Peso massimo: 1.521819
+----------------------------------------
+Nome: backbone.bottom_up.res2.0.conv3.norm.running_mean
+Forma: torch.Size([256])
+Peso minimo: -2.008285, Peso massimo: 1.837123
+----------------------------------------
+Nome: backbone.bottom_up.res2.0.conv3.norm.running_var
+Forma: torch.Size([256])
+Peso minimo: 0.000001, Peso massimo: 2.136964
+----------------------------------------
+Nome: backbone.bottom_up.res2.1.conv1.weight
+Forma: torch.Size([64, 256, 1, 1])
+Peso minimo: -0.296858, Peso massimo: 0.220349
+----------------------------------------
+Nome: backbone.bottom_up.res2.1.conv1.norm.weight
+Forma: torch.Size([64])
+Peso minimo: 0.746197, Peso massimo: 1.949030
+----------------------------------------
+Nome: backbone.bottom_up.res2.1.conv1.norm.bias
+Forma: torch.Size([64])
+Peso minimo: -1.688051, Peso massimo: 1.577869
+----------------------------------------
+Nome: backbone.bottom_up.res2.1.conv1.norm.running_mean
+Forma: torch.Size([64])
+Peso minimo: -2.512779, Peso massimo: 1.111564
+----------------------------------------
+Nome: backbone.bottom_up.res2.1.conv1.norm.running_var
+Forma: torch.Size([64])
+Peso minimo: 0.228860, Peso massimo: 2.167099
+----------------------------------------
+Nome: backbone.bottom_up.res2.1.conv2.weight
+Forma: torch.Size([64, 64, 3, 3])
+Peso minimo: -0.240126, Peso massimo: 0.318288
+----------------------------------------
+Nome: backbone.bottom_up.res2.1.conv2.norm.weight
+Forma: torch.Size([64])
+Peso minimo: 0.620510, Peso massimo: 1.617719
+----------------------------------------
+Nome: backbone.bottom_up.res2.1.conv2.norm.bias
+Forma: torch.Size([64])
+Peso minimo: -2.002696, Peso massimo: 2.398329
+----------------------------------------
+Nome: backbone.bottom_up.res2.1.conv2.norm.running_mean
+Forma: torch.Size([64])
+Peso minimo: -1.338304, Peso massimo: 0.940771
+----------------------------------------
+Nome: backbone.bottom_up.res2.1.conv2.norm.running_var
+Forma: torch.Size([64])
+Peso minimo: 0.166328, Peso massimo: 1.117912
+----------------------------------------
+Nome: backbone.bottom_up.res2.1.conv3.weight
+Forma: torch.Size([256, 64, 1, 1])
+Peso minimo: -0.240245, Peso massimo: 0.279571
+----------------------------------------
+Nome: backbone.bottom_up.res2.1.conv3.norm.weight
+Forma: torch.Size([256])
+Peso minimo: -0.016854, Peso massimo: 2.130081
+----------------------------------------
+Nome: backbone.bottom_up.res2.1.conv3.norm.bias
+Forma: torch.Size([256])
+Peso minimo: -1.711315, Peso massimo: 1.291314
+----------------------------------------
+Nome: backbone.bottom_up.res2.1.conv3.norm.running_mean
+Forma: torch.Size([256])
+Peso minimo: -1.090107, Peso massimo: 0.993087
+----------------------------------------
+Nome: backbone.bottom_up.res2.1.conv3.norm.running_var
+Forma: torch.Size([256])
+Peso minimo: 0.000337, Peso massimo: 0.177814
+----------------------------------------
+Nome: backbone.bottom_up.res2.2.conv1.weight
+Forma: torch.Size([64, 256, 1, 1])
+Peso minimo: -0.209927, Peso massimo: 0.263710
+----------------------------------------
+Nome: backbone.bottom_up.res2.2.conv1.norm.weight
+Forma: torch.Size([64])
+Peso minimo: 0.574069, Peso massimo: 1.688044
+----------------------------------------
+Nome: backbone.bottom_up.res2.2.conv1.norm.bias
+Forma: torch.Size([64])
+Peso minimo: -1.876365, Peso massimo: 1.090371
+----------------------------------------
+Nome: backbone.bottom_up.res2.2.conv1.norm.running_mean
+Forma: torch.Size([64])
+Peso minimo: -1.988319, Peso massimo: 1.670872
+----------------------------------------
+Nome: backbone.bottom_up.res2.2.conv1.norm.running_var
+Forma: torch.Size([64])
+Peso minimo: 0.000002, Peso massimo: 2.505723
+----------------------------------------
+Nome: backbone.bottom_up.res2.2.conv2.weight
+Forma: torch.Size([64, 64, 3, 3])
+Peso minimo: -0.217954, Peso massimo: 0.201332
+----------------------------------------
+Nome: backbone.bottom_up.res2.2.conv2.norm.weight
+Forma: torch.Size([64])
+Peso minimo: 0.757045, Peso massimo: 1.649279
+----------------------------------------
+Nome: backbone.bottom_up.res2.2.conv2.norm.bias
+Forma: torch.Size([64])
+Peso minimo: -2.220592, Peso massimo: 1.878349
+----------------------------------------
+Nome: backbone.bottom_up.res2.2.conv2.norm.running_mean
+Forma: torch.Size([64])
+Peso minimo: -1.346063, Peso massimo: 0.278287
+----------------------------------------
+Nome: backbone.bottom_up.res2.2.conv2.norm.running_var
+Forma: torch.Size([64])
+Peso minimo: 0.135468, Peso massimo: 0.849906
+----------------------------------------
+Nome: backbone.bottom_up.res2.2.conv3.weight
+Forma: torch.Size([256, 64, 1, 1])
+Peso minimo: -0.275219, Peso massimo: 0.349984
+----------------------------------------
+Nome: backbone.bottom_up.res2.2.conv3.norm.weight
+Forma: torch.Size([256])
+Peso minimo: -0.058483, Peso massimo: 2.153982
+----------------------------------------
+Nome: backbone.bottom_up.res2.2.conv3.norm.bias
+Forma: torch.Size([256])
+Peso minimo: -1.569637, Peso massimo: 1.534922
+----------------------------------------
+Nome: backbone.bottom_up.res2.2.conv3.norm.running_mean
+Forma: torch.Size([256])
+Peso minimo: -1.083904, Peso massimo: 1.033726
+----------------------------------------
+Nome: backbone.bottom_up.res2.2.conv3.norm.running_var
+Forma: torch.Size([256])
+Peso minimo: 0.000523, Peso massimo: 0.315038
+----------------------------------------
+Nome: backbone.bottom_up.res3.0.shortcut.weight
+Forma: torch.Size([512, 256, 1, 1])
+Peso minimo: -0.450303, Peso massimo: 0.568773
+----------------------------------------
+Nome: backbone.bottom_up.res3.0.shortcut.norm.weight
+Forma: torch.Size([512])
+Peso minimo: 0.005531, Peso massimo: 2.551902
+----------------------------------------
+Nome: backbone.bottom_up.res3.0.shortcut.norm.bias
+Forma: torch.Size([512])
+Peso minimo: -1.544830, Peso massimo: 1.256460
+----------------------------------------
+Nome: backbone.bottom_up.res3.0.shortcut.norm.running_mean
+Forma: torch.Size([512])
+Peso minimo: -2.378155, Peso massimo: 2.735132
+----------------------------------------
+Nome: backbone.bottom_up.res3.0.shortcut.norm.running_var
+Forma: torch.Size([512])
+Peso minimo: 0.002676, Peso massimo: 4.063080
+----------------------------------------
+Nome: backbone.bottom_up.res3.0.conv1.weight
+Forma: torch.Size([128, 256, 1, 1])
+Peso minimo: -0.318830, Peso massimo: 0.234756
+----------------------------------------
+Nome: backbone.bottom_up.res3.0.conv1.norm.weight
+Forma: torch.Size([128])
+Peso minimo: 0.610337, Peso massimo: 1.642389
+----------------------------------------
+Nome: backbone.bottom_up.res3.0.conv1.norm.bias
+Forma: torch.Size([128])
+Peso minimo: -1.578909, Peso massimo: 1.449006
+----------------------------------------
+Nome: backbone.bottom_up.res3.0.conv1.norm.running_mean
+Forma: torch.Size([128])
+Peso minimo: -2.941627, Peso massimo: 1.688822
+----------------------------------------
+Nome: backbone.bottom_up.res3.0.conv1.norm.running_var
+Forma: torch.Size([128])
+Peso minimo: 0.175278, Peso massimo: 2.566562
+----------------------------------------
+Nome: backbone.bottom_up.res3.0.conv2.weight
+Forma: torch.Size([128, 128, 3, 3])
+Peso minimo: -0.184765, Peso massimo: 0.161944
+----------------------------------------
+Nome: backbone.bottom_up.res3.0.conv2.norm.weight
+Forma: torch.Size([128])
+Peso minimo: 0.604892, Peso massimo: 1.621626
+----------------------------------------
+Nome: backbone.bottom_up.res3.0.conv2.norm.bias
+Forma: torch.Size([128])
+Peso minimo: -2.768481, Peso massimo: 1.746895
+----------------------------------------
+Nome: backbone.bottom_up.res3.0.conv2.norm.running_mean
+Forma: torch.Size([128])
+Peso minimo: -4.093867, Peso massimo: 1.989406
+----------------------------------------
+Nome: backbone.bottom_up.res3.0.conv2.norm.running_var
+Forma: torch.Size([128])
+Peso minimo: 0.230136, Peso massimo: 2.146245
+----------------------------------------
+Nome: backbone.bottom_up.res3.0.conv3.weight
+Forma: torch.Size([512, 128, 1, 1])
+Peso minimo: -0.262163, Peso massimo: 0.464804
+----------------------------------------
+Nome: backbone.bottom_up.res3.0.conv3.norm.weight
+Forma: torch.Size([512])
+Peso minimo: -0.006953, Peso massimo: 2.729879
+----------------------------------------
+Nome: backbone.bottom_up.res3.0.conv3.norm.bias
+Forma: torch.Size([512])
+Peso minimo: -1.544830, Peso massimo: 1.256460
+----------------------------------------
+Nome: backbone.bottom_up.res3.0.conv3.norm.running_mean
+Forma: torch.Size([512])
+Peso minimo: -1.074442, Peso massimo: 1.075805
+----------------------------------------
+Nome: backbone.bottom_up.res3.0.conv3.norm.running_var
+Forma: torch.Size([512])
+Peso minimo: 0.000684, Peso massimo: 0.444661
+----------------------------------------
+Nome: backbone.bottom_up.res3.1.conv1.weight
+Forma: torch.Size([128, 512, 1, 1])
+Peso minimo: -0.152959, Peso massimo: 0.210377
+----------------------------------------
+Nome: backbone.bottom_up.res3.1.conv1.norm.weight
+Forma: torch.Size([128])
+Peso minimo: 0.578484, Peso massimo: 1.428775
+----------------------------------------
+Nome: backbone.bottom_up.res3.1.conv1.norm.bias
+Forma: torch.Size([128])
+Peso minimo: -4.348411, Peso massimo: 0.588484
+----------------------------------------
+Nome: backbone.bottom_up.res3.1.conv1.norm.running_mean
+Forma: torch.Size([128])
+Peso minimo: -2.095689, Peso massimo: 1.378913
+----------------------------------------
+Nome: backbone.bottom_up.res3.1.conv1.norm.running_var
+Forma: torch.Size([128])
+Peso minimo: 0.000004, Peso massimo: 2.396214
+----------------------------------------
+Nome: backbone.bottom_up.res3.1.conv2.weight
+Forma: torch.Size([128, 128, 3, 3])
+Peso minimo: -0.117712, Peso massimo: 0.155287
+----------------------------------------
+Nome: backbone.bottom_up.res3.1.conv2.norm.weight
+Forma: torch.Size([128])
+Peso minimo: 0.510786, Peso massimo: 1.794162
+----------------------------------------
+Nome: backbone.bottom_up.res3.1.conv2.norm.bias
+Forma: torch.Size([128])
+Peso minimo: -3.825481, Peso massimo: 1.343389
+----------------------------------------
+Nome: backbone.bottom_up.res3.1.conv2.norm.running_mean
+Forma: torch.Size([128])
+Peso minimo: -1.425480, Peso massimo: 1.112907
+----------------------------------------
+Nome: backbone.bottom_up.res3.1.conv2.norm.running_var
+Forma: torch.Size([128])
+Peso minimo: 0.176643, Peso massimo: 0.753401
+----------------------------------------
+Nome: backbone.bottom_up.res3.1.conv3.weight
+Forma: torch.Size([512, 128, 1, 1])
+Peso minimo: -0.267327, Peso massimo: 0.301201
+----------------------------------------
+Nome: backbone.bottom_up.res3.1.conv3.norm.weight
+Forma: torch.Size([512])
+Peso minimo: -0.072470, Peso massimo: 2.121532
+----------------------------------------
+Nome: backbone.bottom_up.res3.1.conv3.norm.bias
+Forma: torch.Size([512])
+Peso minimo: -1.501851, Peso massimo: 1.166245
+----------------------------------------
+Nome: backbone.bottom_up.res3.1.conv3.norm.running_mean
+Forma: torch.Size([512])
+Peso minimo: -0.625331, Peso massimo: 0.482594
+----------------------------------------
+Nome: backbone.bottom_up.res3.1.conv3.norm.running_var
+Forma: torch.Size([512])
+Peso minimo: 0.000388, Peso massimo: 0.153668
+----------------------------------------
+Nome: backbone.bottom_up.res3.2.conv1.weight
+Forma: torch.Size([128, 512, 1, 1])
+Peso minimo: -0.225598, Peso massimo: 0.324080
+----------------------------------------
+Nome: backbone.bottom_up.res3.2.conv1.norm.weight
+Forma: torch.Size([128])
+Peso minimo: 0.406000, Peso massimo: 1.695590
+----------------------------------------
+Nome: backbone.bottom_up.res3.2.conv1.norm.bias
+Forma: torch.Size([128])
+Peso minimo: -2.695926, Peso massimo: 1.944482
+----------------------------------------
+Nome: backbone.bottom_up.res3.2.conv1.norm.running_mean
+Forma: torch.Size([128])
+Peso minimo: -1.866740, Peso massimo: 1.520580
+----------------------------------------
+Nome: backbone.bottom_up.res3.2.conv1.norm.running_var
+Forma: torch.Size([128])
+Peso minimo: 0.183607, Peso massimo: 11.532685
+----------------------------------------
+Nome: backbone.bottom_up.res3.2.conv2.weight
+Forma: torch.Size([128, 128, 3, 3])
+Peso minimo: -0.127643, Peso massimo: 0.257043
+----------------------------------------
+Nome: backbone.bottom_up.res3.2.conv2.norm.weight
+Forma: torch.Size([128])
+Peso minimo: 0.460057, Peso massimo: 2.178780
+----------------------------------------
+Nome: backbone.bottom_up.res3.2.conv2.norm.bias
+Forma: torch.Size([128])
+Peso minimo: -1.586803, Peso massimo: 0.588743
+----------------------------------------
+Nome: backbone.bottom_up.res3.2.conv2.norm.running_mean
+Forma: torch.Size([128])
+Peso minimo: -1.478408, Peso massimo: 1.739012
+----------------------------------------
+Nome: backbone.bottom_up.res3.2.conv2.norm.running_var
+Forma: torch.Size([128])
+Peso minimo: 0.080161, Peso massimo: 1.884593
+----------------------------------------
+Nome: backbone.bottom_up.res3.2.conv3.weight
+Forma: torch.Size([512, 128, 1, 1])
+Peso minimo: -0.317416, Peso massimo: 0.250989
+----------------------------------------
+Nome: backbone.bottom_up.res3.2.conv3.norm.weight
+Forma: torch.Size([512])
+Peso minimo: -0.005504, Peso massimo: 3.042613
+----------------------------------------
+Nome: backbone.bottom_up.res3.2.conv3.norm.bias
+Forma: torch.Size([512])
+Peso minimo: -2.368875, Peso massimo: 0.439573
+----------------------------------------
+Nome: backbone.bottom_up.res3.2.conv3.norm.running_mean
+Forma: torch.Size([512])
+Peso minimo: -0.523285, Peso massimo: 0.500051
+----------------------------------------
+Nome: backbone.bottom_up.res3.2.conv3.norm.running_var
+Forma: torch.Size([512])
+Peso minimo: 0.000100, Peso massimo: 0.219308
+----------------------------------------
+Nome: backbone.bottom_up.res3.3.conv1.weight
+Forma: torch.Size([128, 512, 1, 1])
+Peso minimo: -0.249613, Peso massimo: 0.272915
+----------------------------------------
+Nome: backbone.bottom_up.res3.3.conv1.norm.weight
+Forma: torch.Size([128])
+Peso minimo: 0.735502, Peso massimo: 2.394452
+----------------------------------------
+Nome: backbone.bottom_up.res3.3.conv1.norm.bias
+Forma: torch.Size([128])
+Peso minimo: -2.643281, Peso massimo: 0.756101
+----------------------------------------
+Nome: backbone.bottom_up.res3.3.conv1.norm.running_mean
+Forma: torch.Size([128])
+Peso minimo: -1.513273, Peso massimo: 1.311187
+----------------------------------------
+Nome: backbone.bottom_up.res3.3.conv1.norm.running_var
+Forma: torch.Size([128])
+Peso minimo: 0.394970, Peso massimo: 2.495254
+----------------------------------------
+Nome: backbone.bottom_up.res3.3.conv2.weight
+Forma: torch.Size([128, 128, 3, 3])
+Peso minimo: -0.141758, Peso massimo: 0.157821
+----------------------------------------
+Nome: backbone.bottom_up.res3.3.conv2.norm.weight
+Forma: torch.Size([128])
+Peso minimo: 0.681690, Peso massimo: 1.694472
+----------------------------------------
+Nome: backbone.bottom_up.res3.3.conv2.norm.bias
+Forma: torch.Size([128])
+Peso minimo: -1.364767, Peso massimo: 1.599184
+----------------------------------------
+Nome: backbone.bottom_up.res3.3.conv2.norm.running_mean
+Forma: torch.Size([128])
+Peso minimo: -1.384816, Peso massimo: 1.623106
+----------------------------------------
+Nome: backbone.bottom_up.res3.3.conv2.norm.running_var
+Forma: torch.Size([128])
+Peso minimo: 0.250053, Peso massimo: 1.487028
+----------------------------------------
+Nome: backbone.bottom_up.res3.3.conv3.weight
+Forma: torch.Size([512, 128, 1, 1])
+Peso minimo: -0.208861, Peso massimo: 0.319423
+----------------------------------------
+Nome: backbone.bottom_up.res3.3.conv3.norm.weight
+Forma: torch.Size([512])
+Peso minimo: -0.008829, Peso massimo: 1.720947
+----------------------------------------
+Nome: backbone.bottom_up.res3.3.conv3.norm.bias
+Forma: torch.Size([512])
+Peso minimo: -1.897137, Peso massimo: 1.182125
+----------------------------------------
+Nome: backbone.bottom_up.res3.3.conv3.norm.running_mean
+Forma: torch.Size([512])
+Peso minimo: -0.900408, Peso massimo: 1.031248
+----------------------------------------
+Nome: backbone.bottom_up.res3.3.conv3.norm.running_var
+Forma: torch.Size([512])
+Peso minimo: 0.000213, Peso massimo: 0.238198
+----------------------------------------
+Nome: backbone.bottom_up.res4.0.shortcut.weight
+Forma: torch.Size([1024, 512, 1, 1])
+Peso minimo: -0.160850, Peso massimo: 0.296622
+----------------------------------------
+Nome: backbone.bottom_up.res4.0.shortcut.norm.weight
+Forma: torch.Size([1024])
+Peso minimo: 0.033980, Peso massimo: 2.779192
+----------------------------------------
+Nome: backbone.bottom_up.res4.0.shortcut.norm.bias
+Forma: torch.Size([1024])
+Peso minimo: -0.938310, Peso massimo: 0.886757
+----------------------------------------
+Nome: backbone.bottom_up.res4.0.shortcut.norm.running_mean
+Forma: torch.Size([1024])
+Peso minimo: -2.003016, Peso massimo: 2.176449
+----------------------------------------
+Nome: backbone.bottom_up.res4.0.shortcut.norm.running_var
+Forma: torch.Size([1024])
+Peso minimo: 0.015028, Peso massimo: 2.892121
+----------------------------------------
+Nome: backbone.bottom_up.res4.0.conv1.weight
+Forma: torch.Size([256, 512, 1, 1])
+Peso minimo: -0.142171, Peso massimo: 0.339804
+----------------------------------------
+Nome: backbone.bottom_up.res4.0.conv1.norm.weight
+Forma: torch.Size([256])
+Peso minimo: 0.621344, Peso massimo: 1.636373
+----------------------------------------
+Nome: backbone.bottom_up.res4.0.conv1.norm.bias
+Forma: torch.Size([256])
+Peso minimo: -1.419526, Peso massimo: 0.916522
+----------------------------------------
+Nome: backbone.bottom_up.res4.0.conv1.norm.running_mean
+Forma: torch.Size([256])
+Peso minimo: -1.799395, Peso massimo: 1.341123
+----------------------------------------
+Nome: backbone.bottom_up.res4.0.conv1.norm.running_var
+Forma: torch.Size([256])
+Peso minimo: 0.405860, Peso massimo: 2.550400
+----------------------------------------
+Nome: backbone.bottom_up.res4.0.conv2.weight
+Forma: torch.Size([256, 256, 3, 3])
+Peso minimo: -0.176070, Peso massimo: 0.227818
+----------------------------------------
+Nome: backbone.bottom_up.res4.0.conv2.norm.weight
+Forma: torch.Size([256])
+Peso minimo: 0.585478, Peso massimo: 1.749166
+----------------------------------------
+Nome: backbone.bottom_up.res4.0.conv2.norm.bias
+Forma: torch.Size([256])
+Peso minimo: -1.836972, Peso massimo: 1.397917
+----------------------------------------
+Nome: backbone.bottom_up.res4.0.conv2.norm.running_mean
+Forma: torch.Size([256])
+Peso minimo: -4.123749, Peso massimo: 3.869809
+----------------------------------------
+Nome: backbone.bottom_up.res4.0.conv2.norm.running_var
+Forma: torch.Size([256])
+Peso minimo: 0.342191, Peso massimo: 5.198997
+----------------------------------------
+Nome: backbone.bottom_up.res4.0.conv3.weight
+Forma: torch.Size([1024, 256, 1, 1])
+Peso minimo: -0.225343, Peso massimo: 0.356170
+----------------------------------------
+Nome: backbone.bottom_up.res4.0.conv3.norm.weight
+Forma: torch.Size([1024])
+Peso minimo: 0.071134, Peso massimo: 2.366837
+----------------------------------------
+Nome: backbone.bottom_up.res4.0.conv3.norm.bias
+Forma: torch.Size([1024])
+Peso minimo: -0.938310, Peso massimo: 0.886757
+----------------------------------------
+Nome: backbone.bottom_up.res4.0.conv3.norm.running_mean
+Forma: torch.Size([1024])
+Peso minimo: -0.733779, Peso massimo: 0.517272
+----------------------------------------
+Nome: backbone.bottom_up.res4.0.conv3.norm.running_var
+Forma: torch.Size([1024])
+Peso minimo: 0.005250, Peso massimo: 0.359213
+----------------------------------------
+Nome: backbone.bottom_up.res4.1.conv1.weight
+Forma: torch.Size([256, 1024, 1, 1])
+Peso minimo: -0.118477, Peso massimo: 0.298295
+----------------------------------------
+Nome: backbone.bottom_up.res4.1.conv1.norm.weight
+Forma: torch.Size([256])
+Peso minimo: 0.565506, Peso massimo: 1.743358
+----------------------------------------
+Nome: backbone.bottom_up.res4.1.conv1.norm.bias
+Forma: torch.Size([256])
+Peso minimo: -2.703382, Peso massimo: 1.041967
+----------------------------------------
+Nome: backbone.bottom_up.res4.1.conv1.norm.running_mean
+Forma: torch.Size([256])
+Peso minimo: -5.858453, Peso massimo: 2.208472
+----------------------------------------
+Nome: backbone.bottom_up.res4.1.conv1.norm.running_var
+Forma: torch.Size([256])
+Peso minimo: 0.367151, Peso massimo: 4.195722
+----------------------------------------
+Nome: backbone.bottom_up.res4.1.conv2.weight
+Forma: torch.Size([256, 256, 3, 3])
+Peso minimo: -0.194346, Peso massimo: 0.161796
+----------------------------------------
+Nome: backbone.bottom_up.res4.1.conv2.norm.weight
+Forma: torch.Size([256])
+Peso minimo: 0.514758, Peso massimo: 2.300741
+----------------------------------------
+Nome: backbone.bottom_up.res4.1.conv2.norm.bias
+Forma: torch.Size([256])
+Peso minimo: -2.548391, Peso massimo: 1.856407
+----------------------------------------
+Nome: backbone.bottom_up.res4.1.conv2.norm.running_mean
+Forma: torch.Size([256])
+Peso minimo: -2.382958, Peso massimo: 1.205140
+----------------------------------------
+Nome: backbone.bottom_up.res4.1.conv2.norm.running_var
+Forma: torch.Size([256])
+Peso minimo: 0.105134, Peso massimo: 1.324128
+----------------------------------------
+Nome: backbone.bottom_up.res4.1.conv3.weight
+Forma: torch.Size([1024, 256, 1, 1])
+Peso minimo: -0.253239, Peso massimo: 0.263537
+----------------------------------------
+Nome: backbone.bottom_up.res4.1.conv3.norm.weight
+Forma: torch.Size([1024])
+Peso minimo: 0.054978, Peso massimo: 1.942971
+----------------------------------------
+Nome: backbone.bottom_up.res4.1.conv3.norm.bias
+Forma: torch.Size([1024])
+Peso minimo: -1.646784, Peso massimo: 1.015510
+----------------------------------------
+Nome: backbone.bottom_up.res4.1.conv3.norm.running_mean
+Forma: torch.Size([1024])
+Peso minimo: -0.431832, Peso massimo: 0.322194
+----------------------------------------
+Nome: backbone.bottom_up.res4.1.conv3.norm.running_var
+Forma: torch.Size([1024])
+Peso minimo: 0.001427, Peso massimo: 0.123226
+----------------------------------------
+Nome: backbone.bottom_up.res4.2.conv1.weight
+Forma: torch.Size([256, 1024, 1, 1])
+Peso minimo: -0.141036, Peso massimo: 0.281673
+----------------------------------------
+Nome: backbone.bottom_up.res4.2.conv1.norm.weight
+Forma: torch.Size([256])
+Peso minimo: 0.462703, Peso massimo: 1.885679
+----------------------------------------
+Nome: backbone.bottom_up.res4.2.conv1.norm.bias
+Forma: torch.Size([256])
+Peso minimo: -2.398676, Peso massimo: 0.488110
+----------------------------------------
+Nome: backbone.bottom_up.res4.2.conv1.norm.running_mean
+Forma: torch.Size([256])
+Peso minimo: -2.171499, Peso massimo: 1.310853
+----------------------------------------
+Nome: backbone.bottom_up.res4.2.conv1.norm.running_var
+Forma: torch.Size([256])
+Peso minimo: 0.315610, Peso massimo: 3.700554
+----------------------------------------
+Nome: backbone.bottom_up.res4.2.conv2.weight
+Forma: torch.Size([256, 256, 3, 3])
+Peso minimo: -0.148642, Peso massimo: 0.158942
+----------------------------------------
+Nome: backbone.bottom_up.res4.2.conv2.norm.weight
+Forma: torch.Size([256])
+Peso minimo: 0.555269, Peso massimo: 1.900555
+----------------------------------------
+Nome: backbone.bottom_up.res4.2.conv2.norm.bias
+Forma: torch.Size([256])
+Peso minimo: -1.654892, Peso massimo: 0.704489
+----------------------------------------
+Nome: backbone.bottom_up.res4.2.conv2.norm.running_mean
+Forma: torch.Size([256])
+Peso minimo: -0.957153, Peso massimo: 0.909249
+----------------------------------------
+Nome: backbone.bottom_up.res4.2.conv2.norm.running_var
+Forma: torch.Size([256])
+Peso minimo: 0.083323, Peso massimo: 0.466815
+----------------------------------------
+Nome: backbone.bottom_up.res4.2.conv3.weight
+Forma: torch.Size([1024, 256, 1, 1])
+Peso minimo: -0.160724, Peso massimo: 0.254163
+----------------------------------------
+Nome: backbone.bottom_up.res4.2.conv3.norm.weight
+Forma: torch.Size([1024])
+Peso minimo: 0.048827, Peso massimo: 1.449706
+----------------------------------------
+Nome: backbone.bottom_up.res4.2.conv3.norm.bias
+Forma: torch.Size([1024])
+Peso minimo: -1.200777, Peso massimo: 0.586567
+----------------------------------------
+Nome: backbone.bottom_up.res4.2.conv3.norm.running_mean
+Forma: torch.Size([1024])
+Peso minimo: -0.301052, Peso massimo: 0.342003
+----------------------------------------
+Nome: backbone.bottom_up.res4.2.conv3.norm.running_var
+Forma: torch.Size([1024])
+Peso minimo: 0.001705, Peso massimo: 0.097889
+----------------------------------------
+Nome: backbone.bottom_up.res4.3.conv1.weight
+Forma: torch.Size([256, 1024, 1, 1])
+Peso minimo: -0.142791, Peso massimo: 0.234053
+----------------------------------------
+Nome: backbone.bottom_up.res4.3.conv1.norm.weight
+Forma: torch.Size([256])
+Peso minimo: 0.442233, Peso massimo: 1.352728
+----------------------------------------
+Nome: backbone.bottom_up.res4.3.conv1.norm.bias
+Forma: torch.Size([256])
+Peso minimo: -2.321635, Peso massimo: 0.509086
+----------------------------------------
+Nome: backbone.bottom_up.res4.3.conv1.norm.running_mean
+Forma: torch.Size([256])
+Peso minimo: -1.941646, Peso massimo: 0.902131
+----------------------------------------
+Nome: backbone.bottom_up.res4.3.conv1.norm.running_var
+Forma: torch.Size([256])
+Peso minimo: 0.317239, Peso massimo: 2.755538
+----------------------------------------
+Nome: backbone.bottom_up.res4.3.conv2.weight
+Forma: torch.Size([256, 256, 3, 3])
+Peso minimo: -0.084327, Peso massimo: 0.169375
+----------------------------------------
+Nome: backbone.bottom_up.res4.3.conv2.norm.weight
+Forma: torch.Size([256])
+Peso minimo: 0.529279, Peso massimo: 1.939181
+----------------------------------------
+Nome: backbone.bottom_up.res4.3.conv2.norm.bias
+Forma: torch.Size([256])
+Peso minimo: -1.609889, Peso massimo: 0.776187
+----------------------------------------
+Nome: backbone.bottom_up.res4.3.conv2.norm.running_mean
+Forma: torch.Size([256])
+Peso minimo: -1.118595, Peso massimo: 1.065495
+----------------------------------------
+Nome: backbone.bottom_up.res4.3.conv2.norm.running_var
+Forma: torch.Size([256])
+Peso minimo: 0.071316, Peso massimo: 0.675682
+----------------------------------------
+Nome: backbone.bottom_up.res4.3.conv3.weight
+Forma: torch.Size([1024, 256, 1, 1])
+Peso minimo: -0.189550, Peso massimo: 0.273200
+----------------------------------------
+Nome: backbone.bottom_up.res4.3.conv3.norm.weight
+Forma: torch.Size([1024])
+Peso minimo: -0.036879, Peso massimo: 1.645641
+----------------------------------------
+Nome: backbone.bottom_up.res4.3.conv3.norm.bias
+Forma: torch.Size([1024])
+Peso minimo: -1.483739, Peso massimo: 0.344467
+----------------------------------------
+Nome: backbone.bottom_up.res4.3.conv3.norm.running_mean
+Forma: torch.Size([1024])
+Peso minimo: -0.365152, Peso massimo: 0.395854
+----------------------------------------
+Nome: backbone.bottom_up.res4.3.conv3.norm.running_var
+Forma: torch.Size([1024])
+Peso minimo: 0.000085, Peso massimo: 0.106554
+----------------------------------------
+Nome: backbone.bottom_up.res4.4.conv1.weight
+Forma: torch.Size([256, 1024, 1, 1])
+Peso minimo: -0.137657, Peso massimo: 0.307265
+----------------------------------------
+Nome: backbone.bottom_up.res4.4.conv1.norm.weight
+Forma: torch.Size([256])
+Peso minimo: 0.438297, Peso massimo: 1.445796
+----------------------------------------
+Nome: backbone.bottom_up.res4.4.conv1.norm.bias
+Forma: torch.Size([256])
+Peso minimo: -2.510795, Peso massimo: 0.556748
+----------------------------------------
+Nome: backbone.bottom_up.res4.4.conv1.norm.running_mean
+Forma: torch.Size([256])
+Peso minimo: -2.570902, Peso massimo: 0.603362
+----------------------------------------
+Nome: backbone.bottom_up.res4.4.conv1.norm.running_var
+Forma: torch.Size([256])
+Peso minimo: 0.404265, Peso massimo: 1.863629
+----------------------------------------
+Nome: backbone.bottom_up.res4.4.conv2.weight
+Forma: torch.Size([256, 256, 3, 3])
+Peso minimo: -0.134829, Peso massimo: 0.186023
+----------------------------------------
+Nome: backbone.bottom_up.res4.4.conv2.norm.weight
+Forma: torch.Size([256])
+Peso minimo: 0.650596, Peso massimo: 1.858094
+----------------------------------------
+Nome: backbone.bottom_up.res4.4.conv2.norm.bias
+Forma: torch.Size([256])
+Peso minimo: -1.588452, Peso massimo: 0.660694
+----------------------------------------
+Nome: backbone.bottom_up.res4.4.conv2.norm.running_mean
+Forma: torch.Size([256])
+Peso minimo: -0.466849, Peso massimo: 0.492296
+----------------------------------------
+Nome: backbone.bottom_up.res4.4.conv2.norm.running_var
+Forma: torch.Size([256])
+Peso minimo: 0.059279, Peso massimo: 0.351989
+----------------------------------------
+Nome: backbone.bottom_up.res4.4.conv3.weight
+Forma: torch.Size([1024, 256, 1, 1])
+Peso minimo: -0.154894, Peso massimo: 0.248221
+----------------------------------------
+Nome: backbone.bottom_up.res4.4.conv3.norm.weight
+Forma: torch.Size([1024])
+Peso minimo: -0.001302, Peso massimo: 1.500544
+----------------------------------------
+Nome: backbone.bottom_up.res4.4.conv3.norm.bias
+Forma: torch.Size([1024])
+Peso minimo: -1.108286, Peso massimo: 0.639277
+----------------------------------------
+Nome: backbone.bottom_up.res4.4.conv3.norm.running_mean
+Forma: torch.Size([1024])
+Peso minimo: -0.579895, Peso massimo: 1.071693
+----------------------------------------
+Nome: backbone.bottom_up.res4.4.conv3.norm.running_var
+Forma: torch.Size([1024])
+Peso minimo: 0.000308, Peso massimo: 0.173433
+----------------------------------------
+Nome: backbone.bottom_up.res4.5.conv1.weight
+Forma: torch.Size([256, 1024, 1, 1])
+Peso minimo: -0.138882, Peso massimo: 0.264701
+----------------------------------------
+Nome: backbone.bottom_up.res4.5.conv1.norm.weight
+Forma: torch.Size([256])
+Peso minimo: 0.425436, Peso massimo: 1.546676
+----------------------------------------
+Nome: backbone.bottom_up.res4.5.conv1.norm.bias
+Forma: torch.Size([256])
+Peso minimo: -1.972380, Peso massimo: 0.823288
+----------------------------------------
+Nome: backbone.bottom_up.res4.5.conv1.norm.running_mean
+Forma: torch.Size([256])
+Peso minimo: -1.156536, Peso massimo: 0.928111
+----------------------------------------
+Nome: backbone.bottom_up.res4.5.conv1.norm.running_var
+Forma: torch.Size([256])
+Peso minimo: 0.418553, Peso massimo: 2.117642
+----------------------------------------
+Nome: backbone.bottom_up.res4.5.conv2.weight
+Forma: torch.Size([256, 256, 3, 3])
+Peso minimo: -0.139395, Peso massimo: 0.166307
+----------------------------------------
+Nome: backbone.bottom_up.res4.5.conv2.norm.weight
+Forma: torch.Size([256])
+Peso minimo: 0.649812, Peso massimo: 2.942218
+----------------------------------------
+Nome: backbone.bottom_up.res4.5.conv2.norm.bias
+Forma: torch.Size([256])
+Peso minimo: -1.092878, Peso massimo: 0.771356
+----------------------------------------
+Nome: backbone.bottom_up.res4.5.conv2.norm.running_mean
+Forma: torch.Size([256])
+Peso minimo: -0.900260, Peso massimo: 0.508630
+----------------------------------------
+Nome: backbone.bottom_up.res4.5.conv2.norm.running_var
+Forma: torch.Size([256])
+Peso minimo: 0.085310, Peso massimo: 0.965558
+----------------------------------------
+Nome: backbone.bottom_up.res4.5.conv3.weight
+Forma: torch.Size([1024, 256, 1, 1])
+Peso minimo: -0.178231, Peso massimo: 0.273421
+----------------------------------------
+Nome: backbone.bottom_up.res4.5.conv3.norm.weight
+Forma: torch.Size([1024])
+Peso minimo: 0.004237, Peso massimo: 1.984313
+----------------------------------------
+Nome: backbone.bottom_up.res4.5.conv3.norm.bias
+Forma: torch.Size([1024])
+Peso minimo: -1.636037, Peso massimo: 1.249927
+----------------------------------------
+Nome: backbone.bottom_up.res4.5.conv3.norm.running_mean
+Forma: torch.Size([1024])
+Peso minimo: -0.620325, Peso massimo: 0.524451
+----------------------------------------
+Nome: backbone.bottom_up.res4.5.conv3.norm.running_var
+Forma: torch.Size([1024])
+Peso minimo: 0.000592, Peso massimo: 1.139035
+----------------------------------------
+Nome: backbone.bottom_up.res5.0.shortcut.weight
+Forma: torch.Size([2048, 1024, 1, 1])
+Peso minimo: -0.096215, Peso massimo: 0.120797
+----------------------------------------
+Nome: backbone.bottom_up.res5.0.shortcut.norm.weight
+Forma: torch.Size([2048])
+Peso minimo: 0.260868, Peso massimo: 4.574630
+----------------------------------------
+Nome: backbone.bottom_up.res5.0.shortcut.norm.bias
+Forma: torch.Size([2048])
+Peso minimo: -1.810393, Peso massimo: 0.979950
+----------------------------------------
+Nome: backbone.bottom_up.res5.0.shortcut.norm.running_mean
+Forma: torch.Size([2048])
+Peso minimo: -1.472040, Peso massimo: 2.380824
+----------------------------------------
+Nome: backbone.bottom_up.res5.0.shortcut.norm.running_var
+Forma: torch.Size([2048])
+Peso minimo: 0.086739, Peso massimo: 1.003656
+----------------------------------------
+Nome: backbone.bottom_up.res5.0.conv1.weight
+Forma: torch.Size([512, 1024, 1, 1])
+Peso minimo: -0.135492, Peso massimo: 0.310030
+----------------------------------------
+Nome: backbone.bottom_up.res5.0.conv1.norm.weight
+Forma: torch.Size([512])
+Peso minimo: 0.535333, Peso massimo: 1.594356
+----------------------------------------
+Nome: backbone.bottom_up.res5.0.conv1.norm.bias
+Forma: torch.Size([512])
+Peso minimo: -1.756266, Peso massimo: 0.287573
+----------------------------------------
+Nome: backbone.bottom_up.res5.0.conv1.norm.running_mean
+Forma: torch.Size([512])
+Peso minimo: -2.481642, Peso massimo: 1.229693
+----------------------------------------
+Nome: backbone.bottom_up.res5.0.conv1.norm.running_var
+Forma: torch.Size([512])
+Peso minimo: 0.480497, Peso massimo: 1.848195
+----------------------------------------
+Nome: backbone.bottom_up.res5.0.conv2.weight
+Forma: torch.Size([512, 512, 3, 3])
+Peso minimo: -0.105536, Peso massimo: 0.172880
+----------------------------------------
+Nome: backbone.bottom_up.res5.0.conv2.norm.weight
+Forma: torch.Size([512])
+Peso minimo: 0.455758, Peso massimo: 1.542043
+----------------------------------------
+Nome: backbone.bottom_up.res5.0.conv2.norm.bias
+Forma: torch.Size([512])
+Peso minimo: -1.819602, Peso massimo: 0.838723
+----------------------------------------
+Nome: backbone.bottom_up.res5.0.conv2.norm.running_mean
+Forma: torch.Size([512])
+Peso minimo: -2.402111, Peso massimo: 0.962927
+----------------------------------------
+Nome: backbone.bottom_up.res5.0.conv2.norm.running_var
+Forma: torch.Size([512])
+Peso minimo: 0.167888, Peso massimo: 1.106380
+----------------------------------------
+Nome: backbone.bottom_up.res5.0.conv3.weight
+Forma: torch.Size([2048, 512, 1, 1])
+Peso minimo: -0.149737, Peso massimo: 0.245130
+----------------------------------------
+Nome: backbone.bottom_up.res5.0.conv3.norm.weight
+Forma: torch.Size([2048])
+Peso minimo: 0.888443, Peso massimo: 3.492254
+----------------------------------------
+Nome: backbone.bottom_up.res5.0.conv3.norm.bias
+Forma: torch.Size([2048])
+Peso minimo: -1.810393, Peso massimo: 0.979950
+----------------------------------------
+Nome: backbone.bottom_up.res5.0.conv3.norm.running_mean
+Forma: torch.Size([2048])
+Peso minimo: -0.589583, Peso massimo: 0.686632
+----------------------------------------
+Nome: backbone.bottom_up.res5.0.conv3.norm.running_var
+Forma: torch.Size([2048])
+Peso minimo: 0.007425, Peso massimo: 0.188807
+----------------------------------------
+Nome: backbone.bottom_up.res5.1.conv1.weight
+Forma: torch.Size([512, 2048, 1, 1])
+Peso minimo: -0.216539, Peso massimo: 0.393332
+----------------------------------------
+Nome: backbone.bottom_up.res5.1.conv1.norm.weight
+Forma: torch.Size([512])
+Peso minimo: 0.397740, Peso massimo: 1.429125
+----------------------------------------
+Nome: backbone.bottom_up.res5.1.conv1.norm.bias
+Forma: torch.Size([512])
+Peso minimo: -1.380065, Peso massimo: 0.428094
+----------------------------------------
+Nome: backbone.bottom_up.res5.1.conv1.norm.running_mean
+Forma: torch.Size([512])
+Peso minimo: -4.969906, Peso massimo: 4.130498
+----------------------------------------
+Nome: backbone.bottom_up.res5.1.conv1.norm.running_var
+Forma: torch.Size([512])
+Peso minimo: 1.624597, Peso massimo: 8.952912
+----------------------------------------
+Nome: backbone.bottom_up.res5.1.conv2.weight
+Forma: torch.Size([512, 512, 3, 3])
+Peso minimo: -0.166319, Peso massimo: 0.155186
+----------------------------------------
+Nome: backbone.bottom_up.res5.1.conv2.norm.weight
+Forma: torch.Size([512])
+Peso minimo: 0.349432, Peso massimo: 1.549806
+----------------------------------------
+Nome: backbone.bottom_up.res5.1.conv2.norm.bias
+Forma: torch.Size([512])
+Peso minimo: -1.866903, Peso massimo: 0.879996
+----------------------------------------
+Nome: backbone.bottom_up.res5.1.conv2.norm.running_mean
+Forma: torch.Size([512])
+Peso minimo: -1.218354, Peso massimo: 0.919997
+----------------------------------------
+Nome: backbone.bottom_up.res5.1.conv2.norm.running_var
+Forma: torch.Size([512])
+Peso minimo: 0.093894, Peso massimo: 0.394539
+----------------------------------------
+Nome: backbone.bottom_up.res5.1.conv3.weight
+Forma: torch.Size([2048, 512, 1, 1])
+Peso minimo: -0.190574, Peso massimo: 0.187619
+----------------------------------------
+Nome: backbone.bottom_up.res5.1.conv3.norm.weight
+Forma: torch.Size([2048])
+Peso minimo: 0.573608, Peso massimo: 2.846558
+----------------------------------------
+Nome: backbone.bottom_up.res5.1.conv3.norm.bias
+Forma: torch.Size([2048])
+Peso minimo: -2.637938, Peso massimo: 0.544215
+----------------------------------------
+Nome: backbone.bottom_up.res5.1.conv3.norm.running_mean
+Forma: torch.Size([2048])
+Peso minimo: -0.420471, Peso massimo: 0.718131
+----------------------------------------
+Nome: backbone.bottom_up.res5.1.conv3.norm.running_var
+Forma: torch.Size([2048])
+Peso minimo: 0.003206, Peso massimo: 0.058164
+----------------------------------------
+Nome: backbone.bottom_up.res5.2.conv1.weight
+Forma: torch.Size([512, 2048, 1, 1])
+Peso minimo: -0.140937, Peso massimo: 0.219403
+----------------------------------------
+Nome: backbone.bottom_up.res5.2.conv1.norm.weight
+Forma: torch.Size([512])
+Peso minimo: 0.366309, Peso massimo: 1.249171
+----------------------------------------
+Nome: backbone.bottom_up.res5.2.conv1.norm.bias
+Forma: torch.Size([512])
+Peso minimo: -1.664245, Peso massimo: 0.753237
+----------------------------------------
+Nome: backbone.bottom_up.res5.2.conv1.norm.running_mean
+Forma: torch.Size([512])
+Peso minimo: -2.129882, Peso massimo: 5.327801
+----------------------------------------
+Nome: backbone.bottom_up.res5.2.conv1.norm.running_var
+Forma: torch.Size([512])
+Peso minimo: 1.967611, Peso massimo: 20.617918
+----------------------------------------
+Nome: backbone.bottom_up.res5.2.conv2.weight
+Forma: torch.Size([512, 512, 3, 3])
+Peso minimo: -0.132479, Peso massimo: 0.191357
+----------------------------------------
+Nome: backbone.bottom_up.res5.2.conv2.norm.weight
+Forma: torch.Size([512])
+Peso minimo: 0.516349, Peso massimo: 1.334668
+----------------------------------------
+Nome: backbone.bottom_up.res5.2.conv2.norm.bias
+Forma: torch.Size([512])
+Peso minimo: -1.871133, Peso massimo: 1.180833
+----------------------------------------
+Nome: backbone.bottom_up.res5.2.conv2.norm.running_mean
+Forma: torch.Size([512])
+Peso minimo: -0.634746, Peso massimo: 0.411442
+----------------------------------------
+Nome: backbone.bottom_up.res5.2.conv2.norm.running_var
+Forma: torch.Size([512])
+Peso minimo: 0.066229, Peso massimo: 0.355383
+----------------------------------------
+Nome: backbone.bottom_up.res5.2.conv3.weight
+Forma: torch.Size([2048, 512, 1, 1])
+Peso minimo: -0.129405, Peso massimo: 0.220658
+----------------------------------------
+Nome: backbone.bottom_up.res5.2.conv3.norm.weight
+Forma: torch.Size([2048])
+Peso minimo: 0.434784, Peso massimo: 3.073178
+----------------------------------------
+Nome: backbone.bottom_up.res5.2.conv3.norm.bias
+Forma: torch.Size([2048])
+Peso minimo: -3.884742, Peso massimo: -0.248981
+----------------------------------------
+Nome: backbone.bottom_up.res5.2.conv3.norm.running_mean
+Forma: torch.Size([2048])
+Peso minimo: -0.245636, Peso massimo: 0.084835
+----------------------------------------
+Nome: backbone.bottom_up.res5.2.conv3.norm.running_var
+Forma: torch.Size([2048])
+Peso minimo: 0.001326, Peso massimo: 0.043760
+----------------------------------------
+Nome: proposal_generator.rpn_head.conv.weight
+Forma: torch.Size([256, 256, 3, 3])
+Peso minimo: -0.057911, Peso massimo: 0.053983
+----------------------------------------
+Nome: proposal_generator.rpn_head.conv.bias
+Forma: torch.Size([256])
+Peso minimo: -0.168289, Peso massimo: 0.042619
+----------------------------------------
+Nome: proposal_generator.rpn_head.objectness_logits.weight
+Forma: torch.Size([3, 256, 1, 1])
+Peso minimo: -0.347460, Peso massimo: 0.567714
+----------------------------------------
+Nome: proposal_generator.rpn_head.objectness_logits.bias
+Forma: torch.Size([3])
+Peso minimo: 0.280633, Peso massimo: 0.553477
+----------------------------------------
+Nome: proposal_generator.rpn_head.anchor_deltas.weight
+Forma: torch.Size([12, 256, 1, 1])
+Peso minimo: -0.117054, Peso massimo: 0.126054
+----------------------------------------
+Nome: proposal_generator.rpn_head.anchor_deltas.bias
+Forma: torch.Size([12])
+Peso minimo: -0.119941, Peso massimo: 0.136138
+----------------------------------------
+Nome: roi_heads.box_head.fc1.weight
+Forma: torch.Size([1024, 12544])
+Peso minimo: -0.090499, Peso massimo: 0.068125
+----------------------------------------
+Nome: roi_heads.box_head.fc1.bias
+Forma: torch.Size([1024])
+Peso minimo: -0.078141, Peso massimo: 0.047654
+----------------------------------------
+Nome: roi_heads.box_head.fc2.weight
+Forma: torch.Size([1024, 1024])
+Peso minimo: -0.301164, Peso massimo: 0.186301
+----------------------------------------
+Nome: roi_heads.box_head.fc2.bias
+Forma: torch.Size([1024])
+Peso minimo: -0.095844, Peso massimo: 0.191924
+----------------------------------------
+Nome: roi_heads.box_predictor.cls_score.weight
+Forma: torch.Size([81, 1024])
+Peso minimo: -0.523238, Peso massimo: 0.521703
+----------------------------------------
+Nome: roi_heads.box_predictor.cls_score.bias
+Forma: torch.Size([81])
+Peso minimo: -0.072466, Peso massimo: 0.931769
+----------------------------------------
+Nome: roi_heads.box_predictor.bbox_pred.weight
+Forma: torch.Size([320, 1024])
+Peso minimo: -0.268405, Peso massimo: 0.226842
+----------------------------------------
+Nome: roi_heads.box_predictor.bbox_pred.bias
+Forma: torch.Size([320])
+Peso minimo: -0.031675, Peso massimo: 0.166104
+----------------------------------------
+Nome: roi_heads.mask_head.mask_fcn1.weight
+Forma: torch.Size([256, 256, 3, 3])
+Peso minimo: -0.092709, Peso massimo: 0.087064
+----------------------------------------
+Nome: roi_heads.mask_head.mask_fcn1.bias
+Forma: torch.Size([256])
+Peso minimo: -0.029473, Peso massimo: 0.036274
+----------------------------------------
+Nome: roi_heads.mask_head.mask_fcn2.weight
+Forma: torch.Size([256, 256, 3, 3])
+Peso minimo: -0.144159, Peso massimo: 0.174150
+----------------------------------------
+Nome: roi_heads.mask_head.mask_fcn2.bias
+Forma: torch.Size([256])
+Peso minimo: -0.030153, Peso massimo: 0.053966
+----------------------------------------
+Nome: roi_heads.mask_head.mask_fcn3.weight
+Forma: torch.Size([256, 256, 3, 3])
+Peso minimo: -0.119088, Peso massimo: 0.157972
+----------------------------------------
+Nome: roi_heads.mask_head.mask_fcn3.bias
+Forma: torch.Size([256])
+Peso minimo: -0.056241, Peso massimo: 0.107355
+----------------------------------------
+Nome: roi_heads.mask_head.mask_fcn4.weight
+Forma: torch.Size([256, 256, 3, 3])
+Peso minimo: -0.117552, Peso massimo: 0.122270
+----------------------------------------
+Nome: roi_heads.mask_head.mask_fcn4.bias
+Forma: torch.Size([256])
+Peso minimo: -0.035470, Peso massimo: 0.089750
+----------------------------------------
+Nome: roi_heads.mask_head.deconv.weight
+Forma: torch.Size([256, 256, 2, 2])
+Peso minimo: -0.136543, Peso massimo: 0.160505
+----------------------------------------
+Nome: roi_heads.mask_head.deconv.bias
+Forma: torch.Size([256])
+Peso minimo: -0.025296, Peso massimo: 0.206900
+----------------------------------------
+Nome: roi_heads.mask_head.predictor.weight
+Forma: torch.Size([80, 256, 1, 1])
+Peso minimo: -0.493187, Peso massimo: 0.376502
+----------------------------------------
+Nome: roi_heads.mask_head.predictor.bias
+Forma: torch.Size([80])
+Peso minimo: -0.110350, Peso massimo: 0.123655
+----------------------------------------

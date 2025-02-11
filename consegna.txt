@@ -1,0 +1,7 @@
+quali sono i parametri obbiettivi per valutare l'efficacia del riconoscimento.
+Calcolare root min square error tra il contenuto della boxe predetta e della boxe GT (ground trouth)
+Ricerca ulteriori calcoli sullo scarto della boxe dell'immagine.
+Testarlo su un'immagine per ogni classe del dataset COCO e per ogni modello.
+Eseguire una media degli errori su ogni modello e classe, e tstarlo su immagini non presenti
+nel dataset.
+!! Cercare nei dati etichettati di COCO le size esatte dell'oggetto da rilevare. 
