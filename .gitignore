@@ -1,0 +1,6 @@
+*.json
+.DS_Store
+val2017
+val2014
+train2017
+train2014
