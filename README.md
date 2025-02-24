@@ -20,6 +20,8 @@ Le segmentazioni semantiche sono messe a disposizione solo su bakbone con **FPN*
 Per calcolare l'errore sulla predizione delle immagini viene usata la distanza di Hausdorff
 ```math
 d_h(X,Y) =  max(h(X,Y),h(Y,X))
-
-$$ h(X,Y) = sup(inf(d(x,y): y \in Y): x \in X)
 ```
+```math
+h(X,Y) = sup(inf(d(x,y): y \in Y): x \in X)
+```
+
