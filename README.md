@@ -17,3 +17,9 @@ Nel seguente file vengono testati i modelli pre addestrati di detectron su immag
 Le mask RCNN vengono testate sulle tre tipologie di backbone che i modelli mettono a disposizione come **FPN**, **DC5**, **C4**
 Le segmentazioni semantiche sono messe a disposizione solo su bakbone con **FPN**.
 
+Per calcolare l'errore sulla predizione delle immagini viene usata la distanza di Hausdorff
+```math
+d_h(X,Y) =  max(h(X,Y),h(Y,X))
+
+$$ h(X,Y) = sup(inf(d(x,y): y \in Y): x \in X)
+```
